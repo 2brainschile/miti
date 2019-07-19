@@ -20,6 +20,7 @@ Para mayor info, ver http://middlemanapp.com/basics/getting-started/.
 
 ## Features
 
+
 *Bootstrap
 *Font-Awesome
 *jQuery
