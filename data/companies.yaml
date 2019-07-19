@@ -49,7 +49,7 @@ companies:
     image: "img/empresas/logo-zembia.png"
     url: "https://zembia.cl/"
   - title: "JumpittLabs"
-    image: "img/empresas/logo-jumpittlabs.png"
+    image: "img/empresas/logo-jumpittlabs.png" 
     url: "http://labs.jumpitt.com/"
   - title: "Únete al equipo"
     image: "img/empresas/logo-unete.png"
