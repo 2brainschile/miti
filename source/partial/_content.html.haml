@@ -98,6 +98,25 @@
               = director.phone
 
 /
+  Gerente
+  \==================================================
+%section#directorio.section
+  .container
+    .row.directores
+      .overview
+        %h3.animate{"data-animate" => "fadeInUp"} Gerente
+        - data.manager.manager.each_with_index do |contact, index|
+          .col-xs-12.col-sm-6.col-md-2.col-lg-2
+            %p.bold.animate{"data-animate" => "fadeInUp"}
+              = contact.title
+            %h6.animate{"data-animate" => "fadeInUp"}
+              = contact.name
+            %p.animate{"data-animate" => "fadeInUp"}
+              = contact.email
+            %p.animate{"data-animate" => "fadeInUp"}
+              = contact.phone
+
+/
   Contacto
   \==================================================
 %section#contacto.section
