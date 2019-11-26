@@ -493,7 +493,38 @@ header {
 	}
 }
 
-/*	Contacto
+/*	Directorio
+	==================================================*/
+	#gerente {
+		background: $blanco;
+		h3 {
+			color: $negro;
+			background-image: url(../img/ico-gusano-black.png);
+			margin-bottom: 40px;
+		}
+		.gerente {
+			.overview > .justify-content-center {
+				margin-bottom: 20px;
+				h6 {
+					font-size: $parrafo + 2;
+				}
+				p {
+					margin: 0 auto;
+					font-style: normal;
+					letter-spacing: 0;
+					line-height: 24px;
+					font-family: $ptsans;
+					color: $sombra;
+					&.bold {
+						font-weight: bold;
+						color: #333;
+					}
+				}
+			}
+		}
+	}
+
+	/*	Contacto
 	==================================================*/
 
 #contacto {
