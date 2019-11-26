@@ -100,13 +100,13 @@
 /
   Gerente
   \==================================================
-%section#directorio.section
+%section#gerente.section
   .container
-    .row.directores
+    .row.gerente
       .overview
         %h3.animate{"data-animate" => "fadeInUp"} Gerente
         - data.manager.manager.each_with_index do |contact, index|
-          .col-xs-12
+          .col-xs-12.text-center
             %p.bold.animate{"data-animate" => "fadeInUp"}
               = contact.title
             %h6.animate{"data-animate" => "fadeInUp"}
