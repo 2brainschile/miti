@@ -55,7 +55,7 @@
 
 
 /
-  Casos de éxito
+  Startups
   \==================================================
 %section#casos.section
   .container
@@ -63,19 +63,20 @@
       .col-md-12.centrado.nofloat
         .overview
           %h3.animate{"data-animate" => "fadeInUp"}
-            Casos de éxito
-          - data.proyects.proyects.each_with_index do |proyect, index|
+            Startups que nacieron desde empresas MITI
+          - data.startups.startups.each_with_index do |startup, index|
             .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
               .content-img
-                %img.img-responsive{:src => proyect.image, :alt => ""}/
+                %img.img-responsive{:src => startup.image, :alt => ""}/
               %h5
-                = proyect.title
-              %p
-                = proyect.text
+                = startup.text
+              %p.text-right
+                Powered by 
+                = startup.company
 
 /
   \==================================================
-  End Casos de éxito
+  End Startups
 
 
 /
@@ -201,7 +202,7 @@
       %li
         %a.tw{:href => "https://twitter.com/miti_chile"}
     %p.nomb.nomt.col-lg-4.nofloat.center
-      ©2017 MITI, todos los derechos reservados.
+      ©2020 MITI, todos los derechos reservados.
 
 
 /
