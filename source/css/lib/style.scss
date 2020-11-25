@@ -415,15 +415,21 @@ header {
 		border-bottom: 1px solid #d1d1d1;
 		margin: 0 5%;
 		font-family: $ptsans;
-		font-size: $parrafo;
+		font-size: $parrafo - 2;
 		font-style: italic;
 		color: #666;
+		text-align: right;
 	}
 	.content-caso {
 		margin-bottom: 60px;
+		height: 400px;
 		.content-img {
-			position: relative;
-			margin-bottom: 30px;
+			//position: relative;
+			//margin-bottom: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 300px;
 			.img-responsive {
 				margin: 0 auto;
 			}
