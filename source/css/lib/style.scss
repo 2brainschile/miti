@@ -412,7 +412,6 @@ header {
 	}
 	p {
 		padding-bottom: 30px;
-		border-bottom: 1px solid #d1d1d1;
 		margin: 0 5%;
 		font-family: $ptsans;
 		font-size: $parrafo - 2;
@@ -422,14 +421,14 @@ header {
 	}
 	.content-caso {
 		margin-bottom: 60px;
-		height: 400px;
+		min-height: 200px;
 		.content-img {
 			//position: relative;
 			//margin-bottom: 30px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			height: 300px;
+			max-height: 300px;
 			.img-responsive {
 				margin: 0 auto;
 			}
@@ -447,6 +446,9 @@ header {
 				max-height: 214px;
 				min-height: 214px;
 				overflow: hidden;
+				.img-responsive{
+					max-width: 75%;
+				}
 			}
 		}
 		@media (min-width: 992px) {
