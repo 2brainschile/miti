@@ -63,17 +63,17 @@
       .col-md-12.centrado.nofloat
         .overview
           %h3.animate{"data-animate" => "fadeInUp"}
-            Startups que nacieron desde empresas MITI
-          %p.text-grey.animate{"data-animate" => "fadeInUp"}
+            Startups creadas en empresas MITI
+          %h6.text-grey.text-center.animate{"data-animate" => "fadeInUp"}
             = data.general.our_startups
           - data.startups.startups.each_with_index do |startup, index|
             .col-lg-3.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
               .content-img
                 %img.img-responsive{:src => startup.image, :alt => ""}/
-              %h5
+              %h6
                 = startup.text
               %p.text-right
-                Powered by 
+                by 
                 = startup.company
 
 /
