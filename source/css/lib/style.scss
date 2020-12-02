@@ -24,6 +24,9 @@ body {
 	background: $purpura;
 }
 
+.text-white{
+	color: $blanco;
+}
 
 .animate {
   opacity: 0;
@@ -409,6 +412,13 @@ header {
 		margin-bottom: 10px;
 		text-transform: uppercase;
 		line-height: 25px;
+	}
+	h6 {
+		color: #909090;
+		letter-spacing: 1px;
+		font-size: 14px;
+		margin: 15px 0;
+		font-family: "PT Sans";
 	}
 	p {
 		padding-bottom: 30px;
