@@ -42,5 +42,8 @@ companies:
   - title: "JumpittLabs"
     image: "img/empresas/logo-jumpittlabs.png"
     url: "http://labs.jumpitt.com/"
+  - title: "23people"
+    image: "img/empresas/23people.png"
+    url: "https://23people.io/"
   - title: "Únete al equipo"
     image: "img/empresas/logo-unete.png"
