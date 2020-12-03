@@ -2,6 +2,7 @@
 startups:
   - title: "Academia Ágil"
     company: "LeanSight"
+    link: "LeanSight"
     text: "Formacion en Lean y Agile para toda latinoamerica."
     image: "img/startups/academia-agil.png"
   - title: "Talentuum"
