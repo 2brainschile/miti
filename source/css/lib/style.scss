@@ -30,6 +30,12 @@ body {
 .text-center{
 	text-align: center;
 }
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
 
 .animate {
   opacity: 0;
@@ -423,6 +429,7 @@ header {
 		font-size: 14px;
 		margin: 15px 0;
 		font-family: "PT Sans";
+		line-height: 1.5;
 	}
 	p {
 		padding-bottom: 30px;

@@ -59,26 +59,51 @@
   \==================================================
 %section#casos.section
   .container
+    .overview.centrado.nofloat
+      %h3.animate{"data-animate" => "fadeInUp"}
+        Startups creadas en empresas MITI
+      %h6.text-grey.text-center.animate{"data-animate" => "fadeInUp"}
+        = data.general.our_startups
     .row
-      .col-md-12.centrado.nofloat
-        .overview
-          %h3.animate{"data-animate" => "fadeInUp"}
-            Startups creadas en empresas MITI
-          %h6.text-grey.text-center.animate{"data-animate" => "fadeInUp"}
-            = data.general.our_startups
-          - data.startups.startups.each_with_index do |startup, index|
-            .col-lg-3.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
-              .content-img
-                %img.img-responsive{:src => startup.image, :alt => ""}/
-              %h6
-                = startup.text
-              %p.text-right
-                by 
-                = startup.company
+      - data.startups.startups.each_with_index do |startup, index|
+        .col-lg-3.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
+          %a.fb{:href => startup.link}
+            .content-img
+              %img.img-responsive{:src => startup.image, :alt => ""}/
+          %h6.text-right
+            = startup.text
+          %p.text-right
+            by 
+            = startup.company
 
 /
   \==================================================
   End Startups
+
+/
+  Benefits
+  \==================================================
+%section#manifiesto.section
+  .container
+    .row
+      .col-md-12.centrado.nofloat
+        .overview
+          %h3.animate{"data-animate" => "fadeInUp"}
+            Beneficios
+          .tabla
+            - data.benefits.benefits.each_with_index do |benefit, index|
+              .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-manifiesto
+                %h6.animate{"data-animate" => "fadeInUp"}
+                  = manifest.text
+    .row
+      .col-md-12.centrado.nofloat
+        = data.general.manifest
+        %p.text-left
+          Actualmente tenemos 6 mesas de trabajo: (1) Personas, (2) Operaciones, (3) Estrategia de ventas, (4) Productos y emprendimiento, (5) Administración & Finanzas y (6) Liderazgo.
+
+/
+  \==================================================
+  End Benefits
 
 
 /
