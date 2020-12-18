@@ -94,12 +94,30 @@
             - data.benefits.benefits.each_with_index do |benefit, index|
               .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-manifiesto
                 %h6.animate{"data-animate" => "fadeInUp"}
-                  = manifest.text
+                  = benefit.text
     .row
       .col-md-12.centrado.nofloat
-        = data.general.manifest
+        = data.general.our_manifest
         %p.text-left
-          Actualmente tenemos 6 mesas de trabajo: (1) Personas, (2) Operaciones, (3) Estrategia de ventas, (4) Productos y emprendimiento, (5) Administración & Finanzas y (6) Liderazgo.
+          Actualmente tenemos 6 mesas de trabajo:
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Personas
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Operaciones
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Estrategia de ventas
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Productos y emprendimiento
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Administración & Finanzas
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Liderazgo
 
 /
   \==================================================
