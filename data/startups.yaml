@@ -1,10 +1,5 @@
 ---
 startups:
-  - title: "Academia Ágil"
-    company: "LeanSight"
-    url: "https://academiaagil.com/"
-    text: "Formacion en Lean y Agile para toda latinoamerica."
-    image: "img/startups/academia-agil.png"
   - title: "Talentuum"
     company: "Continuum"
     url: "https://www.talentuum.cl"
@@ -111,3 +106,8 @@ startups:
     url: "https://nesto.cl"
     text: "Recibe tu sueldo el mismo día."
     image: "img/startups/nesto.svg"
+  - title: "Academia Ágil"
+    company: "LeanSight"
+    url: "https://academiaagil.com/"
+    text: "Formacion en Lean y Agile para toda latinoamerica."
+    image: "img/startups/academia-agil.png"
