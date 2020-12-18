@@ -89,7 +89,7 @@
       .col-md-12.centrado.nofloat
         .overview
           %h3.animate{"data-animate" => "fadeInUp"}
-            Beneficios
+            Beneficios de unirse a MITI
           .tabla
             - data.benefits.benefits.each_with_index do |benefit, index|
               .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-manifiesto
@@ -97,9 +97,9 @@
                   = benefit.text
     .row
       .col-md-12.centrado.nofloat
-        %h4.text-center
+        %h4.benefits-resume
           = data.general.our_manifest
-        %p.text-left
+        %p.text-center
           Actualmente tenemos 6 mesas de trabajo:
       .col-xs-12.col-sm-6.col-md-2
         %h4.text-center
@@ -119,6 +119,7 @@
       .col-xs-12.col-sm-6.col-md-2
         %h4.text-center
           Liderazgo
+  %hr
 /
   \==================================================
   End Benefits

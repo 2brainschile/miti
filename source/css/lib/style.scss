@@ -16,6 +16,8 @@ $celeste: #33bfd8;
 $sombra: #666;
 $azul: #253038;
 $gris: #909090;
+//others
+$spacer: 1rem !default;
 
 body {
 	font-family: $oswald;
@@ -24,18 +26,10 @@ body {
 	background: $purpura;
 }
 
-.text-white{
-	color: $blanco;
-}
-.text-center{
-	text-align: center;
-}
-.text-right{
-	text-align: right;
-}
-.text-left{
-	text-align: left;
-}
+.text-white{ color: $blanco; }
+.text-center{ text-align: center; }
+.text-right{ text-align: right; }
+.text-left{ text-align: left; }
 
 .animate {
   opacity: 0;
@@ -403,6 +397,12 @@ header {
 	.tabla {
 			display: table;
 		}
+	.benefits-resume{
+		text-align: center;
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+		line-height: 1.5;
+	}
 }
 
 
