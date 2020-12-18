@@ -64,7 +64,7 @@
         Startups creadas en empresas MITI
       %h6.text-grey.text-center.animate{"data-animate" => "fadeInUp"}
         = data.general.our_startups
-    .row
+    .row.startups-div
       - data.startups.startups.each_with_index do |startup, index|
         .col-lg-3.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
           %a{:href => startup.url }
