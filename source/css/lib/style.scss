@@ -440,8 +440,12 @@ header {
 		color: #666;
 		text-align: right;
 	}
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.content-caso {
-		margin-bottom: 60px;
+		margin-bottom: 30px;
 		min-height: 200px;
 		.content-img {
 			//position: relative;
