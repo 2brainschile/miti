@@ -67,7 +67,7 @@
     .row
       - data.startups.startups.each_with_index do |startup, index|
         .col-lg-3.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
-          %a.fb{:href => startup.link}
+          %a{:href => startup.url }
             .content-img
               %img.img-responsive{:src => startup.image, :alt => ""}/
           %h6.text-right
@@ -100,23 +100,23 @@
         = data.general.our_manifest
         %p.text-left
           Actualmente tenemos 6 mesas de trabajo:
-      .col-xs-12.col-sm-6.col-md-2.col-lg-2
-        %h6.animate{"data-animate" => "fadeInUp"}
+      .col-xs-12.col-sm-6.col-md-2
+        %h4.text-center
           Personas
-      .col-xs-12.col-sm-6.col-md-2.col-lg-2
-        %h6.animate{"data-animate" => "fadeInUp"}
+      .col-xs-12.col-sm-6.col-md-2
+        %h4.text-center
           Operaciones
-      .col-xs-12.col-sm-6.col-md-2.col-lg-2
-        %h6.animate{"data-animate" => "fadeInUp"}
+      .col-xs-12.col-sm-6.col-md-2
+        %h4.text-center
           Estrategia de ventas
-      .col-xs-12.col-sm-6.col-md-2.col-lg-2
-        %h6.animate{"data-animate" => "fadeInUp"}
+      .col-xs-12.col-sm-6.col-md-2
+        %h4.text-center
           Productos y emprendimiento
-      .col-xs-12.col-sm-6.col-md-2.col-lg-2
-        %h6.animate{"data-animate" => "fadeInUp"}
+      .col-xs-12.col-sm-6.col-md-2
+        %h4.text-center
           Administración & Finanzas
-      .col-xs-12.col-sm-6.col-md-2.col-lg-2
-        %h6.animate{"data-animate" => "fadeInUp"}
+      .col-xs-12.col-sm-6.col-md-2
+        %h4.text-center
           Liderazgo
 /
   \==================================================
