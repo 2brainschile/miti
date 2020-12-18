@@ -6,7 +6,7 @@
     .row
       .col-md-8.centrado.nofloat
         .overview
-          %h3.animate{"data-animate" => "fadeInUp"}
+          %h3.text-white.animate{"data-animate" => "fadeInUp"}
             Nosotros
           %p.animate{"data-animate" => "fadeInUp"}
             = data.general.about_us
@@ -55,27 +55,73 @@
 
 
 /
-  Casos de éxito
+  Startups
   \==================================================
 %section#casos.section
+  .container
+    .overview.centrado.nofloat
+      %h3.animate{"data-animate" => "fadeInUp"}
+        Startups creadas en empresas MITI
+      %h6.text-grey.text-center.animate{"data-animate" => "fadeInUp"}
+        = data.general.our_startups
+    .row
+      - data.startups.startups.each_with_index do |startup, index|
+        .col-lg-3.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
+          %a.fb{:href => startup.link}
+            .content-img
+              %img.img-responsive{:src => startup.image, :alt => ""}/
+          %h6.text-right
+            = startup.text
+          %p.text-right
+            by 
+            = startup.company
+
+/
+  \==================================================
+  End Startups
+
+/
+  Benefits
+  \==================================================
+%section#manifiesto.section
   .container
     .row
       .col-md-12.centrado.nofloat
         .overview
           %h3.animate{"data-animate" => "fadeInUp"}
-            Casos de éxito
-          - data.proyects.proyects.each_with_index do |proyect, index|
-            .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-caso.animate{"data-animate" => "fadeInUp"}
-              .content-img
-                %img.img-responsive{:src => proyect.image, :alt => ""}/
-              %h5
-                = proyect.title
-              %p
-                = proyect.text
+            Beneficios
+          .tabla
+            - data.benefits.benefits.each_with_index do |benefit, index|
+              .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-manifiesto
+                %h6.animate{"data-animate" => "fadeInUp"}
+                  = benefit.text
+    .row
+      .col-md-12.centrado.nofloat
+        = data.general.our_manifest
+        %p.text-left
+          Actualmente tenemos 6 mesas de trabajo:
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Personas
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Operaciones
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Estrategia de ventas
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Productos y emprendimiento
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Administración & Finanzas
+      .col-xs-12.col-sm-6.col-md-2.col-lg-2
+        %h6.animate{"data-animate" => "fadeInUp"}
+          %p.text-left Liderazgo
 
 /
   \==================================================
-  End Casos de éxito
+  End Benefits
 
 
 /
@@ -201,7 +247,7 @@
       %li
         %a.tw{:href => "https://twitter.com/miti_chile"}
     %p.nomb.nomt.col-lg-4.nofloat.center
-      ©2017 MITI, todos los derechos reservados.
+      ©2020 MITI, todos los derechos reservados.
 
 
 /

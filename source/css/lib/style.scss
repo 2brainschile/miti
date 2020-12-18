@@ -24,6 +24,18 @@ body {
 	background: $purpura;
 }
 
+.text-white{
+	color: $blanco;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
 
 .animate {
   opacity: 0;
@@ -290,7 +302,8 @@ header {
 	  	font-weight: bold;
 	  	text-transform: uppercase;
 	  	letter-spacing: 1px;
-	  	margin-bottom: 30px;
+		margin-bottom: 30px;
+		line-height: 1.5;
 	}
 	.content-empresas {
 		background: $azul;
@@ -410,20 +423,33 @@ header {
 		text-transform: uppercase;
 		line-height: 25px;
 	}
+	h6 {
+		color: #909090;
+		letter-spacing: 1px;
+		font-size: 14px;
+		margin: 15px 0;
+		font-family: "PT Sans";
+		line-height: 1.5;
+	}
 	p {
 		padding-bottom: 30px;
-		border-bottom: 1px solid #d1d1d1;
 		margin: 0 5%;
 		font-family: $ptsans;
-		font-size: $parrafo;
+		font-size: $parrafo - 2;
 		font-style: italic;
 		color: #666;
+		text-align: right;
 	}
 	.content-caso {
 		margin-bottom: 60px;
+		min-height: 200px;
 		.content-img {
-			position: relative;
-			margin-bottom: 30px;
+			//position: relative;
+			//margin-bottom: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			max-height: 300px;
 			.img-responsive {
 				margin: 0 auto;
 			}
@@ -441,6 +467,9 @@ header {
 				max-height: 214px;
 				min-height: 214px;
 				overflow: hidden;
+				.img-responsive{
+					max-width: 75%;
+				}
 			}
 		}
 		@media (min-width: 992px) {
