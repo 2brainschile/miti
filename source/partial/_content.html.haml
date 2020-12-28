@@ -87,10 +87,10 @@
   .container
     .row
       .col-md-12.centrado.nofloat
-        .overview
+        .text-center
           %h3.animate{"data-animate" => "fadeInUp"}
             Beneficios de unirse a MITI
-          .tabla
+          .container
             - data.benefits.benefits.each_with_index do |benefit, index|
               .col-md-12.content-manifiesto
                 %h4.animate{"data-animate" => "fadeInUp"}
