@@ -96,3 +96,8 @@ startups:
     url: "https://www.zentagroup.com/"
     text: "Mejora de productividad y automatización, haciendo toma de decisiones informadas."
     image: "img/startups/witia.png"
+  - title: "Ensicloud"
+    company: "Zembia"
+    url: "https://www.ensicloud.cl/"
+    text: "Digitalizar gestión y manejo de residuos en industria salmonera."
+    image: "img/startups/ensicloud.png"
