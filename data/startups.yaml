@@ -59,7 +59,7 @@ startups:
     company: "2Brains"
     url: "https://contable.app"
     text: "Contabilidad simple e inteligente para microempresas."
-    image: "img/startups/contable.png"
+    image: "img/startups/contable.svg"
   - title: "VPS Guru"
     company: "Linets"
     url: "https://vps.guru"
