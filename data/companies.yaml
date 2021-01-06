@@ -44,3 +44,4 @@ companies:
     url: "https://23people.io/"
   - title: "Únete al equipo"
     image: "img/empresas/logo-unete.png"
+    url: "#contacto"
