@@ -299,6 +299,13 @@ header {
 		margin-bottom: 30px;
 		line-height: 1.5;
 	}
+	a{
+		color: $blanco;
+		&:hover {
+			color: $blanco;
+			opacity: .7;
+		}
+	}
 	.content-empresas {
 		background: $azul;
 		padding-left: 0;
