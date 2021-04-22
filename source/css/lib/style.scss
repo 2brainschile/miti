@@ -299,15 +299,16 @@ header {
 		margin-bottom: 30px;
 		line-height: 1.5;
 	}
-	a{
-		color: $blanco;
-		&:hover {
-			color: $blanco;
-			opacity: .8;
-		}
-	}
 	.div-clutch{
-		margin-bottom: 30px;
+		margin-bottom: 40px;
+		a{
+			color: $blanco;
+			text-decoration-line: underline;
+			&:hover {
+				color: $blanco;
+				opacity: .8;
+			}
+		}
 	}
 	.content-empresas {
 		background: $azul;
