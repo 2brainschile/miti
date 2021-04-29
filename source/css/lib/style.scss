@@ -301,10 +301,15 @@ header {
 	}
 	.div-clutch{
 		margin-bottom: 40px;
+		a{
+			color: white;
+			&:hover {
+				color: #453a52;
+			}
+		}
 	}
 	.btn-default{
 		color: $blanco;
-		background-color: initial;
 		&:hover {
 			color: #453a52;
 		}
