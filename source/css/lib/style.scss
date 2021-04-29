@@ -305,9 +305,14 @@ header {
 		background-color: initial;
 		&:hover {
 			color: #453a52;
+			background-color: white;
 		}
+		.show-mobile{ display: none; }
+		.show-normal{ display: block; }
 		@media screen and (max-width:400px) {
 			width: 100%;
+			.show-mobile{ display: block; }
+			.show-normal{ display: none; }
 		}
 	}
 	.content-empresas {
