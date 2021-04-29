@@ -301,15 +301,15 @@ header {
 	}
 	.div-clutch{
 		margin-bottom: 40px;
-		.btn-default{
-			color: $blanco;
-			background-color: initial;
-			&:hover {
-				color: #453a52;
-			}
+	}
+	.btn-default{
+		color: $blanco;
+		background-color: initial;
+		&:hover {
+			color: #453a52;
 		}
 	}
-	.content-empresas {
+.content-empresas {
 		background: $azul;
 		padding-left: 0;
 		padding-right: 0;
