@@ -301,12 +301,11 @@ header {
 	}
 	.div-clutch{
 		margin-bottom: 40px;
-		a{
+		.btn-default{
 			color: $blanco;
-			text-decoration-line: underline;
+			background-color: initial;
 			&:hover {
-				color: $blanco;
-				opacity: .8;
+				color: #453a52;
 			}
 		}
 	}
