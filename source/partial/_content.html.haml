@@ -12,8 +12,8 @@
             = data.general.about_us
           %h6.animate{"data-animate" => "fadeIn"}
             Empresas Asociadas
-          .div-clutch.btn.btn-default.btn-lg.animate
-            %a{:href => "https://miti.clutch.co/directory"} Aquí los perfiles de nuestras empresas asociadas
+          %a.btn.btn-default.btn-lg.animate{:href => "https://miti.clutch.co/directory"} 
+            %span Aquí los perfiles de nuestras empresas asociadas
   .container-fluid.content-empresas
     - data.companies.companies.each_with_index do |company, index|
       .col-lg-3.col-md-3.col-sm-6.col-xs-12.content-logo.animate{"data-animate" => "fadeIn"}
