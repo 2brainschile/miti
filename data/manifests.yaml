@@ -1,12 +1,12 @@
 ---
 manifests:
   - title: "Aporte a los clientes"
-    text: "Generamos valor temprana y continuamente a nuestros clientes mediante una interacción transparente y sencilla, y una validación temprana del impacto de las soluciones al problema de nuestros clientes."
+    text: "Generamos valor temprano y continuamente a nuestros clientes mediante una interacción transparente y sencilla, buscando siempre una validación temprana del impacto de las soluciones al problema de nuestros clientes."
     image: "img/manifiesto/ico-5.png"
   - title: "Valor de las personas"
-    text: "La tecnología es un oficio que requiere profesionales realmente talentosos y experimentados, líderes técnicos competentes y equipos sólidos, motivados y constantes en el tiempo."
+    text: "Creemos que el mundo de las tecnologías requiere profesionales realmente dedicados y experimentados. Es por esto que buscamos dar el máximo apoyo a nuestros talentos para avalar una industria con líderes técnicos competentes y equipos sólidos, motivados y constantes en el tiempo."
     image: "img/manifiesto/ico-3.png"
   - title: "Excelencia Técnica"
-    text: "Nuestro quehacer está en permanente búsqueda de software que funciona y es fácil de usar; y mantener y en el dominio de las últimas tendencias en TI."
+    text: "Nuestro quehacer está en la permanente búsqueda y aplicación de tecnologías funcionales y fáciles de usar, en constante mejoramiento de las últimas tendencias en TI."
     image: "img/manifiesto/ico-4.png"
 
