@@ -299,19 +299,15 @@ header {
 		margin-bottom: 30px;
 		line-height: 1.5;
 	}
-	.div-clutch{
-		margin-bottom: 40px;
-		a{
-			color: white;
-			&:hover {
-				color: #453a52;
-			}
-		}
-	}
 	.btn-default{
+		margin-bottom: 40px;
 		color: $blanco;
+		background-color: initial;
 		&:hover {
 			color: #453a52;
+		}
+		@media screen and (max-width:400px) {
+			width: 100%;
 		}
 	}
 	.content-empresas {
