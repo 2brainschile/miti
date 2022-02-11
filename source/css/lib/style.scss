@@ -711,8 +711,30 @@ footer {
 			.tw {
 				background-position: -48px 0;
 			}
-			.in {
+			.ln {
 				background-position: -98px 0;
+			}
+			.in {
+				background: url(../img/ico-instagram.png) no-repeat;
+				width: 35px;
+				height: 35px;
+				display: inline-block;
+				@include opacity(.3);
+				@include transition(all .3 ease);
+				&:hover {
+					@include opacity(1);
+				}
+			}
+			.yt {
+				background: url(../img/ico-youtube.png) no-repeat;
+				width: 35px;
+				height: 35px;
+				display: inline-block;
+				@include opacity(.3);
+				@include transition(all .3 ease);
+				&:hover {
+					@include opacity(1);
+				}
 			}
 			.be {
 				background-position: -147px 0;
