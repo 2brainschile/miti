@@ -1,4 +1,29 @@
 /
+  Manifiesto
+  \==================================================
+%section#manifiesto.section
+  .container
+    .row
+      .col-md-12.centrado.nofloat
+        .overview
+          %h3.animate{"data-animate" => "fadeInUp"}
+            Nuestros principios
+          .tabla
+            - data.manifests.manifests.each_with_index do |manifest, index|
+              .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-manifiesto
+                .ico-manifiesto.animate{"data-animate" => "flipInX"}
+                  %img{:src => manifest.image, :alt => ""}/
+                %h6.animate{"data-animate" => "fadeInUp"}
+                  = manifest.title
+                %p.animate{"data-animate" => "fadeInUp"}
+                  = manifest.text
+
+/
+  \==================================================
+  End Manifiesto
+
+
+/
   Nosotros
   \==================================================
 %section#nosotros.section.nopb
@@ -29,31 +54,6 @@
   \==================================================
   End Nosotros
 
-
-
-/
-  Manifiesto
-  \==================================================
-%section#manifiesto.section
-  .container
-    .row
-      .col-md-12.centrado.nofloat
-        .overview
-          %h3.animate{"data-animate" => "fadeInUp"}
-            Nuestros principios
-          .tabla
-            - data.manifests.manifests.each_with_index do |manifest, index|
-              .col-lg-4.col-md-4.col-sm-6.col-xs-12.content-manifiesto
-                .ico-manifiesto.animate{"data-animate" => "flipInX"}
-                  %img{:src => manifest.image, :alt => ""}/
-                %h6.animate{"data-animate" => "fadeInUp"}
-                  = manifest.title
-                %p.animate{"data-animate" => "fadeInUp"}
-                  = manifest.text
-
-/
-  \==================================================
-  End Manifiesto
 
 
 /
@@ -140,6 +140,8 @@
               = director.name
             %p.bold.animate{"data-animate" => "fadeInUp"}
               = director.title
+            %p.bold.animate{"data-animate" => "fadeInUp"}
+              = director.company
             %p.animate{"data-animate" => "fadeInUp"}
               = director.email
 
@@ -150,7 +152,7 @@
   .container
     .row.gerente
       .overview
-        %h3.animate{"data-animate" => "fadeInUp"} Gerente
+        %h3.animate{"data-animate" => "fadeInUp"} Equipo MITI
         - data.manager.manager.each_with_index do |contact, index|
           .justify-content-center
             %h6.animate{"data-animate" => "fadeInUp"}
